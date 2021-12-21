@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GroupApp">
         <activity
+            android:name=".Activitycommit"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
