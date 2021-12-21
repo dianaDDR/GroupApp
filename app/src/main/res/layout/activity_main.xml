@@ -21,6 +21,7 @@
         android:layout_width="121dp"
         android:layout_height="54dp"
         android:text="KimaSofia:D"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
