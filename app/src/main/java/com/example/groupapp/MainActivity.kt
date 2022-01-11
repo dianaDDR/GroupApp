@@ -12,9 +12,13 @@ class MainActivity : AppCompatActivity() {
 
     fun commitButton(view: android.view.View) {
         commitActivity()
+
+        //pruevba
     }
     private fun commitActivity() {
         val IntComm = Intent(this, Activitycommit::class.java)
         startActivity(IntComm)
     }
+
+
 }
