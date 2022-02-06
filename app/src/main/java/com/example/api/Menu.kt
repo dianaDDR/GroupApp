@@ -1,6 +1,7 @@
 package com.example.api
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -28,7 +29,6 @@ class Menu : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarMenu.toolbar)
 
-
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_menu)
@@ -36,7 +36,7 @@ class Menu : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.cuenta, R.id.feed, R.id.cerrar, R.id.home, R.id.ajustes, R.id.restaurantes, R.id.reservas, R.id.etiquetas, R.id.premium
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -59,6 +59,21 @@ class Menu : AppCompatActivity() {
         startActivity(nextIntent)
     }
 
+    fun onClickCeliaco(view: android.view.View) {
+        // marcador cerca de mi, google maps, filtro restaurantes
+        val gmmIntentUri = Uri.parse("geo:0,0?q=restaurantes celíacos")
+        val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+        mapIntent.setPackage("com.google.android.apps.maps")
+        startActivity(mapIntent)
+    }
+
+    fun onClickVegano(view: android.view.View) {
+        // marcador cerca de mi, google maps, filtro restaurantes
+        var gmmIntentUri = Uri.parse("geo:0,0?q=restaurantes veganos")
+        var mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+        mapIntent.setPackage("com.google.android.apps.maps")
+        startActivity(mapIntent)
+    }
  /*   //cerrar sesion y vuelva a login
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val item_selected: Int = item.itemId
