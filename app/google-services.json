@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "908702350628",
+    "project_id": "findurdiet-47b95",
+    "storage_bucket": "findurdiet-47b95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908702350628:android:d64f0976e0009b7e7e07b1",
+        "android_client_info": {
+          "package_name": "com.example.api"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908702350628-lpqqjp2ms4tr7gegbs6i10afqatd1a1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.api",
+            "certificate_hash": "66d061cb447f6bb85143cc6d535217b9805a6f9e"
+          }
+        },
+        {
+          "client_id": "908702350628-4p157ocikbt31h1fub7obfari5polpkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_3losIIbKAf3c4jXcxSCAugPPEebHF1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908702350628-4p157ocikbt31h1fub7obfari5polpkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
