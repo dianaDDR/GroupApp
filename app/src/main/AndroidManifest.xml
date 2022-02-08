@@ -21,9 +21,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.API.NoActionBar">
+
+
         <activity
+            android:theme="@style/SplashTheme"
             android:name=".LogIn"
+
+
             android:exported="false" />
+
+
         <activity
             android:name=".Menu"
             android:exported="true"
