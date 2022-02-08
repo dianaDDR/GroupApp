@@ -3,52 +3,58 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/home">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/home"
         android:name="com.example.api.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Inicio"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/cuenta"
+        android:name="com.example.api.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/feed"
         android:name="com.example.api.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="feed"
+        tools:layout="@layout/fragment_feed" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/restaurantes"
         android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/restaurantes"
+        tools:layout="@layout/fragment_restaurantes" />
 
     <fragment
-        android:id="@+id/nav_slideshow1"
+        android:id="@+id/premium"
         android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/premium"
+        tools:layout="@layout/fragment_premium" />
 
     <fragment
-        android:id="@+id/nav_slideshow2"
+        android:id="@+id/etiquetas"
         android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/tag_etiquetas"
+        tools:layout="@layout/fragment_etiquetas" />
 
     <fragment
-        android:id="@+id/nav_slideshow3"
+        android:id="@+id/reservas"
         android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/reservas"
+        tools:layout="@layout/fragment_reservas" />
 
     <fragment
-        android:id="@+id/nav_slideshow4"
+        android:id="@+id/ajustes"
         android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/ajustes"
+        tools:layout="@layout/fragment_ajustes" />
     <fragment
-        android:id="@+id/nav_slideshow5"
-        android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/cerrar"
+        android:name="com.example.api.ui.home.HomeFragment"
+        android:label="@string/cerrar_sesi_n"
+        tools:layout="@layout/fragment_home" />
 </navigation>
