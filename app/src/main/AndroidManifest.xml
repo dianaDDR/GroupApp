@@ -26,9 +26,13 @@
         <activity
             android:theme="@style/SplashTheme"
             android:name=".LogIn"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-            android:exported="false" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
 
         <activity
@@ -36,11 +40,7 @@
             android:exported="true"
             android:label="@string/title_activity_menu"
             android:theme="@style/Theme.API.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -57,7 +57,9 @@
         <activity
             android:name=".MapsActivity"
             android:exported="true"
-            android:label="Fud"></activity>
+            android:label="Fud">
+
+        </activity>
     </application>
 
 </manifest>
