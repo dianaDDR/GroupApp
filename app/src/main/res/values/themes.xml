@@ -14,13 +14,13 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="SplashTheme" parent="Theme.API">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
     <style name="Theme.API.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="SplashTheme" parent="Theme.API">
-    <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
     <style name="Theme.API.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
