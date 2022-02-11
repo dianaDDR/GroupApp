@@ -9,6 +9,10 @@ plugins {
 android {
     compileSdk 31
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.example.api"
         minSdk 21
@@ -42,6 +46,11 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.4')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     //--------
+
+    //TEXTO FLOTANTE "Biblioteca de material"
+    implementation 'com.google.android.material:material:1.5.0'
+    //--------
+
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'com.google.android.gms:play-services-maps:18.0.0'
