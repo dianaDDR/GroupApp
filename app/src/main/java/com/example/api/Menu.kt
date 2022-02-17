@@ -80,7 +80,7 @@ class Menu : AppCompatActivity() {
         if(item_selected == R.id.action_settings)
         {
             FirebaseAuth.getInstance().signOut();
-            val nextIntent = Intent(this, Login::class.java)
+            val nextIntent = Intent(this, LogI::class.java)
             startActivity(nextIntent)
 
         }
