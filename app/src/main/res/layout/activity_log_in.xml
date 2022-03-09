@@ -25,7 +25,6 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textFieldEmail"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:hint="Email"
         app:helperText="Obligatorio"
@@ -43,6 +42,7 @@
         <!-- android:hint="textEmailAddress" />-->
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -55,7 +55,6 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:startIconDrawable="@drawable/ic_lock"
         app:endIconMode="password_toggle"
-        android:id="@+id/textFieldContrasena"
         android:hint="Contraseña"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,6 +65,7 @@
 
         <!-- android:hint="textEmailAddress" -->
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"/>
@@ -78,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Iniciar Sesión"
-
+        android:onClick="onClickInicioSesion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +88,7 @@
     <TextView
         android:id="@+id/irRegistro"
         android:layout_width="173dp"
-        android:layout_height="26dp"
+        android:layout_height="48dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:onClick="onClickIrRegistro"
@@ -99,6 +99,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.91" />
+
+    <ImageButton
+        android:id="@+id/botonGoogleLogin"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@color/fui_transparent"
+        android:backgroundTintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766"
+        app:srcCompat="@mipmap/google_iconx96" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

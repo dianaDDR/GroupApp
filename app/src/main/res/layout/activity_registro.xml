@@ -23,7 +23,6 @@
 
     <!--CAMPO FLOTANTE EMAIL -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textFieldEmail"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,13 +41,13 @@
         <!-- android:hint="textEmailAddress" />-->
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textFieldEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--CAMPO FLOTANTE APELLIDO -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textFieldApellido"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,12 +60,13 @@
         app:startIconDrawable="@drawable/ic_text">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textFieldApellido"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!--CAMPO FLOTANTE NOMBRE -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textFieldNombre"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -79,16 +79,13 @@
         app:startIconDrawable="@drawable/ic_text">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textFieldNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--CAMPO FLOTANTE CONTRASEÑA -->
-
-    <!--CAMPO FLOTANTE CONFIRMA CONTRASEÑA -->
-
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textFieldContrasena"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,13 +103,14 @@
         <!-- inputType oculta contraseña-->
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textFieldContrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!--CAMPO FLOTANTE CONFIRMA CONTRASEÑA -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textFieldConfirmaContrasena"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -130,6 +128,7 @@
         <!-- inputType oculta contraseña-->
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textFieldConfirmaContrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
@@ -152,6 +151,7 @@
         android:id="@+id/button4"
         android:layout_width="125dp"
         android:layout_height="38dp"
+        android:onClick="onClickConfirmar"
         android:text="Confirmar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

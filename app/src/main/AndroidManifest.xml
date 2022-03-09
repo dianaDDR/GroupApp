@@ -6,37 +6,47 @@
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the "MyLocation" functionality.
     -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.MANAGE_MEDIA" />
-    <uses-permission android:name="android.permission.READ_CALENDAR" />
-    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.API.NoActionBar">
-        <activity
-            android:name=".Registro"
-            android:exported="false" />
-        <activity
-            android:name=".Menu"
-            android:exported="true"
-            android:label="@string/title_activity_menu"
-            android:theme="@style/Theme.API.NoActionBar" />
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-        -->
+    <!--Android Studio NO se fija en los manifiestos importados de la libreria por lo que
+    salta el error de falta de permisos en FirebaseAnalytics.getInstance (aunque los tenga)
+    SOLO ES UN ERROR DE IDE-->
+     <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     <uses-permission android:name="android.permission.CAMERA" />
+     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+     <uses-permission android:name="android.permission.MANAGE_MEDIA" />
+     <uses-permission android:name="android.permission.READ_CALENDAR" />
+     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <!--INF:NOMBRE PUBLICO DEL PROYECTO(firebase) project-908702350628 -->
+
+
+     <application
+         android:allowBackup="true"
+         android:icon="@mipmap/ic_launcher"
+         android:label="@string/app_name"
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/Theme.API.NoActionBar">
+         <activity
+             android:name=".Registro"
+             android:exported="false" />
+         <activity
+             android:name=".Menu"
+             android:exported="true"
+             android:label="@string/title_activity_menu"
+             android:theme="@style/Theme.API.NoActionBar" />
+         <!--
+              The API key for Google Maps-based APIs is defined as a string resource.
+              (See the file "res/values/google_maps_api.xml").
+              Note that the API key is linked to the encryption key used to sign the APK.
+              You need a different API key for each encryption key, including the release key that is used to
+              sign the APK for publishing.
+              You can define the keys for the debug and release targets in src/debug/ and src/release/.
+         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="${MAPS_API_KEY}" />
