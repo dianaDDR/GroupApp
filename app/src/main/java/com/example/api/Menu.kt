@@ -15,6 +15,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.api.databinding.ActivityMenuBinding
+import com.google.firebase.auth.FirebaseAuth
 
 class Menu : AppCompatActivity() {
 
@@ -72,19 +73,16 @@ class Menu : AppCompatActivity() {
  /*   //cerrar sesion y vuelva a login
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val item_selected: Int = item.itemId
-        if(item_selected == R.id.action_settings)
+        if(item_selected == R.id.cerrar)
         {
             FirebaseAuth.getInstance().signOut();
             val nextIntent = Intent(this, LogIn::class.java)
             startActivity(nextIntent)
-
         }
         else {
             //error
         }
         return super.onOptionsItemSelected(item)
     }
-    */
-
-
+*/
 }
