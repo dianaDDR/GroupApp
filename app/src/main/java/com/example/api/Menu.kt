@@ -43,11 +43,6 @@ class Menu : AppCompatActivity() {
         navView.setupWithNavController(navController)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.menu, menu)
-        return true
-    }
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_menu)
@@ -80,7 +75,7 @@ class Menu : AppCompatActivity() {
         if(item_selected == R.id.action_settings)
         {
             FirebaseAuth.getInstance().signOut();
-            val nextIntent = Intent(this, Login::class.java)
+            val nextIntent = Intent(this, LogIn::class.java)
             startActivity(nextIntent)
 
         }
