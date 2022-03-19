@@ -70,19 +70,20 @@ class Menu : AppCompatActivity() {
         mapIntent.setPackage("com.google.android.apps.maps")
         startActivity(mapIntent)
     }
- /*   //cerrar sesion y vuelva a login
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val item_selected: Int = item.itemId
-        if(item_selected == R.id.cerrar)
-        {
+    //cerrar sesion y vuelva a login
+        override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id = item.itemId
+        if(id == R.id.cerrar) {
             FirebaseAuth.getInstance().signOut();
             val nextIntent = Intent(this, LogIn::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(nextIntent)
+            finish()
         }
         else {
             //error
         }
         return super.onOptionsItemSelected(item)
     }
-*/
+
 }
