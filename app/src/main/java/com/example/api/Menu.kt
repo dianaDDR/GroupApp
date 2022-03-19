@@ -15,6 +15,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.api.databinding.ActivityMenuBinding
+import com.google.firebase.auth.FirebaseAuth
 
 class Menu : AppCompatActivity() {
 
@@ -36,28 +37,30 @@ class Menu : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.cuenta, R.id.feed, R.id.cerrar, R.id.home, R.id.ajustes, R.id.restaurantes, R.id.reservas, R.id.etiquetas, R.id.premium
+                R.id.cuenta, R.id.feed, R.id.home, R.id.ajustes, R.id.reservas, R.id.etiquetas
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.menu, menu)
-        return true
-    }
 
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_menu)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        menuInflater.inflate(R.menu.main, menu)
+        return true
+    }
+
     fun onClickNext(view: android.view.View) {
         val nextIntent = Intent(this, MapsActivity::class.java)
         startActivity(nextIntent)
     }
+
 
     fun onClickCeliaco(view: android.view.View) {
         // marcador cerca de mi, google maps, filtro restaurantes
@@ -74,22 +77,19 @@ class Menu : AppCompatActivity() {
         mapIntent.setPackage("com.google.android.apps.maps")
         startActivity(mapIntent)
     }
- /*   //cerrar sesion y vuelva a login
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        val item_selected: Int = item.itemId
-        if(item_selected == R.id.action_settings)
-        {
+    //cerrar sesion y vuelva a login
+        override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id = item.itemId
+        if(id == R.id.cerrarsesion) {
             FirebaseAuth.getInstance().signOut();
-            val nextIntent = Intent(this, Login::class.java)
+            val nextIntent = Intent(this, LogIn::class.java)
             startActivity(nextIntent)
-
+            finish()
         }
         else {
             //error
         }
         return super.onOptionsItemSelected(item)
     }
-    */
-
 
 }
