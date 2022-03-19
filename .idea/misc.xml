@@ -28,12 +28,20 @@
         <entry key="..\:/Users/VANT/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/VANT/AndroidStudioProjects/GroupApp1/app/src/main/res/layout/activity_menu.xml" value="0.11956521739130435" />
         <entry key="..\:/Users/VANT/AndroidStudioProjects/GroupApp1/app/src/main/res/layout/fragment_home.xml" value="0.11956521739130435" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/activity_registro.xml" value="0.1796875" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/app_bar_menu.xml" value="0.1796875" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/cardview.xml" value="0.22" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_ajustes.xml" value="0.1796875" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_cuenta.xml" value="0.22" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_restaurantes.xml" value="0.1796875" />
+        <entry key="..\:/Users/ades_/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/Users/ades_/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_maps.xml" value="0.1408308004052685" />
+        <entry key="..\:/Users/ades_/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="..\:/Users/ades_/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_registro.xml" value="0.17378048780487804" />
+        <entry key="..\:/Users/ades_/AndroidStudioProjects/GroupApp/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_log_in.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_maps.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_menu.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/app_bar_menu.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/content_menu.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_feed.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_home.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/layout/nav_header_menu.xml" value="0.1890625" />
+        <entry key="..\:/Users/nymed/AndroidStudioProjects/GroupApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.19635416666666666" />
       </map>
     </option>
   </component>

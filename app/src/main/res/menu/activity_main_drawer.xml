@@ -41,5 +41,6 @@
             android:id="@+id/cerrar"
             android:icon="@drawable/apagar"
             android:title="@string/cerrar_sesi_n" />
+
     </group>
 </menu>
