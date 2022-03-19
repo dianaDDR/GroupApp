@@ -37,7 +37,7 @@ class Menu : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.cuenta, R.id.feed, R.id.cerrar, R.id.home, R.id.ajustes, R.id.restaurantes, R.id.reservas, R.id.etiquetas, R.id.premium
+                R.id.cuenta, R.id.feed, R.id.home, R.id.ajustes, R.id.reservas, R.id.etiquetas
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -50,10 +50,17 @@ class Menu : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        menuInflater.inflate(R.menu.main, menu)
+        return true
+    }
+
     fun onClickNext(view: android.view.View) {
         val nextIntent = Intent(this, MapsActivity::class.java)
         startActivity(nextIntent)
     }
+
 
     fun onClickCeliaco(view: android.view.View) {
         // marcador cerca de mi, google maps, filtro restaurantes
@@ -73,10 +80,9 @@ class Menu : AppCompatActivity() {
     //cerrar sesion y vuelva a login
         override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
-        if(id == R.id.cerrar) {
+        if(id == R.id.cerrarsesion) {
             FirebaseAuth.getInstance().signOut();
             val nextIntent = Intent(this, LogIn::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(nextIntent)
             finish()
         }

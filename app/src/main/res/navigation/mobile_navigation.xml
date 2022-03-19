@@ -24,36 +24,9 @@
         tools:layout="@layout/fragment_feed" />
 
     <fragment
-        android:id="@+id/restaurantes"
-        android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/restaurantes"
-        tools:layout="@layout/fragment_restaurantes" />
-
-    <fragment
-        android:id="@+id/premium"
-        android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/premium"
-        tools:layout="@layout/fragment_premium" />
-
-    <fragment
-        android:id="@+id/etiquetas"
-        android:name="com.example.api.ui.slideshow.SlideshowFragment"
-        android:label="@string/tag_etiquetas"
-        tools:layout="@layout/fragment_etiquetas" />
-
-    <fragment
         android:id="@+id/reservas"
         android:name="com.example.api.ui.slideshow.SlideshowFragment"
         android:label="@string/reservas"
         tools:layout="@layout/fragment_reservas" />
-    <fragment
-        android:id="@+id/cerrar"
-        android:name="com.example.api.ui.home.HomeFragment"
-        android:label="@string/cerrar_sesi_n"
-        tools:layout="@layout/fragment_home" />
-    <fragment
-        android:id="@+id/ajustesFragment"
-        android:name="com.example.api.AjustesFragment"
-        android:label="@string/ajustes"
-        tools:layout="@layout/fragment_ajustes" />
+
 </navigation>

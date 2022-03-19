@@ -8,39 +8,22 @@
             android:id="@+id/home"
             android:icon="@drawable/home64"
             android:title="@string/home" />
+
         <item
             android:id="@+id/cuenta"
             android:icon="@drawable/usuario"
-            android:title="@string/cuenta" />
+            android:title="Perfil de Usuario" />
 
         <item
             android:id="@+id/feed"
             android:icon="@drawable/home64"
             android:title="Feed" />
-        <item
-            android:id="@+id/restaurantes"
-            android:icon="@drawable/rest"
-            android:title="@string/restaurantes" />
-        <item
-            android:id="@+id/premium"
-            android:icon="@drawable/premium"
-            android:title="@string/premium" />
-        <item
-            android:id="@+id/etiquetas"
-            android:icon="@drawable/etiquetas"
-            android:title="@string/tag_etiquetas" />
+
+
         <item
             android:id="@+id/reservas"
             android:icon="@drawable/calendario"
-            android:title="@string/reservas" />
-        <item
-            android:id="@+id/ajustes"
-            android:icon="@drawable/ajustes"
-            android:title="@string/ajustes" />
-        <item
-            android:id="@+id/cerrar"
-            android:icon="@drawable/apagar"
-            android:title="@string/cerrar_sesi_n" />
+            android:title="Reservas Realizadas" />
 
     </group>
 </menu>
