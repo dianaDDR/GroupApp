@@ -22,9 +22,9 @@
             android:id="@+id/imageView3"
             android:layout_width="160dp"
             android:layout_height="124dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:src="@tools:sample/avatars" />
@@ -37,7 +37,7 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView3"
             app:layout_constraintVertical_bias="0.0" />
@@ -46,8 +46,9 @@
             android:id="@+id/constraintLayout2"
             android:layout_width="240dp"
             android:layout_height="39dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="52dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3">
 
@@ -131,14 +132,16 @@
             android:layout_height="59dp"
             android:layout_marginTop="292dp"
             android:layout_marginEnd="4dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#367BED7D"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="162dp"
-                android:layout_height="46dp"
+                android:layout_width="169dp"
+                android:layout_height="48dp"
                 android:layout_gravity="center"
                 android:clickable="false"
                 android:src="@android:drawable/stat_notify_chat"
@@ -146,10 +149,9 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="211dp"
-            android:layout_height="59dp"
+            android:layout_width="199dp"
+            android:layout_height="52dp"
             android:layout_marginTop="292dp"
-            android:background="#367BED7D"
             android:orientation="vertical"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -167,7 +169,7 @@
             android:id="@+id/imageView9"
             android:layout_width="40dp"
             android:layout_height="37dp"
-            android:layout_marginStart="184dp"
+            android:layout_marginStart="176dp"
             android:layout_marginTop="8dp"
             android:src="@drawable/celiaco"
             app:layout_constraintStart_toStartOf="parent"

@@ -11,8 +11,8 @@ class Cuenta : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_cuenta)
 
-        val recycler : RecyclerView= findViewById(R.id.fotos)
-        recycler.layoutManager = GridLayoutManager(this, 2)
+        val recycler : RecyclerView= findViewById(R.id.Rese)
+        recycler.layoutManager = GridLayoutManager(this, 3)
 
 
         val adapter : RecyclerViewAdapter = RecyclerViewAdapter()

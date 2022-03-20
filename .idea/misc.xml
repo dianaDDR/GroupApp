@@ -3,26 +3,49 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_log_in.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_maps.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_menu.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_registro.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/app_bar_menu.xml" value="0.22" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/cardview.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/content_main.xml" value="0.6935483870967742" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/content_menu.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_ajustes.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_cuenta.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_etiquetas.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_feed.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_premium.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_reservas.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_restaurantes.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/layout/nav_header_menu.xml" value="0.1" />
-        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/drawable/ic_menu_camera.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/Ajustes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/activity_main.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/activity_maps.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/app_bar_menu.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/content_menu.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_ajustes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_cuenta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_etiquetas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_feed.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_gallery.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_home.xml" value="0.3958333333333333" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_premium.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_reservas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_restaurantes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/fragment_slideshow.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/layout/nav_header_menu.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Hulia/AndroidStudioProjects/API/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/VANT/AndroidStudioProjects/GroupApp/app/src/main/res/layout/activity_log_in.xml" value="0.1" />
+        <entry key="..\:/Users/VANT/AndroidStudioProjects/GroupApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/VANT/AndroidStudioProjects/GroupApp1/app/src/main/res/layout/activity_menu.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/VANT/AndroidStudioProjects/GroupApp1/app/src/main/res/layout/fragment_home.xml" value="0.11956521739130435" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/activity_registro.xml" value="0.1796875" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/app_bar_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/cardview.xml" value="0.22" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/cardview2.xml" value="0.22" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/content_menu.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_ajustes.xml" value="0.1796875" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_cuenta.xml" value="0.21006944444444445" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_cuenta2.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_etiquetas.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_feed.xml" value="0.1" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_gallery.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_home.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_premium.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_reservas.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_restaurantes.xml" value="0.1796875" />
+        <entry key="..\:/Users/leala/AndroidStudioProjects/GroupApp2/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
       </map>
     </option>
   </component>
