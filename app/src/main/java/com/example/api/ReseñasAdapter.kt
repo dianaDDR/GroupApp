@@ -35,4 +35,8 @@ class ReseñasAdapter:AppCompatActivity(){
 
             return contactos
         }
+
+    fun Atras(view:android.view.View){
+        onBackPressed();
+    }
     }

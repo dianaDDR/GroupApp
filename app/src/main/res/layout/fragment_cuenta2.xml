@@ -33,7 +33,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@Usuario"
+            android:text="Usuario"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -136,7 +136,8 @@
             android:backgroundTint="#367BED7D"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
             <ImageView
                 android:id="@+id/imageView7"
@@ -153,6 +154,7 @@
             android:layout_height="52dp"
             android:layout_marginTop="292dp"
             android:orientation="vertical"
+            android:onClick="Atras"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
