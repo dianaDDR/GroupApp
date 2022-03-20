@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/cuenta"
-        android:name="com.example.api.ui.home.HomeFragment"
+        android:name="com.example.api.ui.cuenta.CuentaFragment"
         android:label="Inicio"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_cuenta" />
 
     <fragment
         android:id="@+id/feed"
