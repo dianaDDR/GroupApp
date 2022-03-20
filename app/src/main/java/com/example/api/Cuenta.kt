@@ -1,5 +1,6 @@
 package com.example.api
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -34,5 +35,10 @@ class Cuenta : AppCompatActivity() {
         contactos.add(Modelo("Ale" , R.drawable.fondo2 ))
 
         return contactos
+    }
+
+    fun irPantallaResena(view: android.view.View) {
+        val inicioIntent = Intent(this,ReseñasAdapter::class.java)
+        startActivity(inicioIntent)
     }
 }
